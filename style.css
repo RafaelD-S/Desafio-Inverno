@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'montserrat' , sans-serif;
+}
+header h2, header li {
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+header {
+    background-color: #4B93BF;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header img {
+    padding-top: 20px;
+}
+ul {
+    list-style: none;
+    display: flex;
+    width: 60vw;
+    justify-content: space-around;
+}
+header li, .social-media figure img {
+    cursor: pointer;
+    padding: 1rem;
+}
+header li:hover , .social-media figure img:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+header section {
+    display: flex;
+    align-items: center;
+}
+
+/* ------------------------- */
+
+.gramado {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #4B93BF;
+    font-size: 32px;
+    color: #E4EEF1;
+}
+.gramado p {
+    width: 40vw;
+}
+.gramado img {
+    width: 400px;
+}
+
+/* -------------------------- */
+
+.inverno {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 25rem;
+}
+.inverno p {
+    width: 50vw;
+    font-weight: bold;
+    color: #0F468C;
+    font-size: 1.25rem;
+}
+.inverno img {
+    width: 30vw
+}
+/* -------------------------------- */
+
+#carrossel > figure {
+    background: #e4eef1;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-bottom: 60px;
+  }
+  
+  #carrossel > figure img {
+    object-fit: cover;
+    width: 300px;
+    margin-top: 60px;
+    border-radius: 15px;
+  }
+
+/* -------------------------------- */
+
+footer {
+    background-color: #4b93bf;
+    color: #fff;
+    padding-block: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .social-media {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .social-media figure img {
+    cursor: pointer;
+  }
+  
+  .group {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
